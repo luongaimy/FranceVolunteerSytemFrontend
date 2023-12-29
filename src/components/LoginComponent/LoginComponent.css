@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.login-component body {
+  font-family: "Roboto", sans-serif;
+}
+
+.login-component h1 {
+  font-size: 64px !important;
+  font-weight: 400 !important;
+  color: #224957;
+  font-style: normal;
+  line-height: 80px;
+}
+
+.login-component h6 {
+  color: #224957;
+}
+
+.login-component input {
+  height: 50px;
+  width: 300px;
+  border-radius: 10px;
+  padding: 9px 12px;
+  outline: none;
+  border: none;
+  background-color: #224957;
+  color: white;
+}
+
+.login-component :focus {
+  outline: none;
+}
+
+.login-component ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1; /* Firefox */
+}
+
+.login-component .input-email {
+  margin-bottom: 40px;
+}
+
+.login-component .input-password {
+  margin-bottom: 40px;
+}
+
+.login-component .button {
+  justify-content: center;
+  align-items: center;
+  padding: 9px 12px;
+  gap: 8px;
+  height: 50px;
+  font-size: 16px;
+  line-height: 20px;
+  width: 300px;
+  border: none;
+  background: #20df7f;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 40px;
+}
+
+.login-component .lable {
+  line-height: 22px;
+  font-size: 17px;
+  color: #fff;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+}
+
+.login-component .button:hover {
+  background: #31bd77;
+}
+
+ .login-component .button:hover .svg-icon {
+  animation: flickering 2s linear infinite;
+}
+
+ @keyframes flickering {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 1;
+  }
+
+  52% {
+    opacity: 1;
+  }
+
+  54% {
+    opacity: 0;
+  }
+
+  56% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+
+  92% {
+    opacity: 0;
+  }
+
+  94% {
+    opacity: 1;
+  }
+
+  96% {
+    opacity: 0;
+  }
+
+  98% {
+    opacity: 1;
+  }
+
+  99% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.login-component a {
+  color: black !important;
+  text-decoration: none !important;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+}
